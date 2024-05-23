@@ -66,7 +66,7 @@ public class SILab2 {
                 item.setName("unknown"); // 6 
             }
             
-            if (item.getBarcode() != null){ // 7
+            if (item.getBarcode() != null ){ // 7
                 String allowed = "0123456789"; 
                 char chars[] = item.getBarcode().toCharArray();
                 /**
